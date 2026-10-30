@@ -11,7 +11,7 @@ def get_db_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",         # Replace with your MySQL username
-        password="Chaithu@123", # Replace with your MySQL password
+        password="*******", # Replace with your MySQL password
         database="kanban_db"
     )
 
